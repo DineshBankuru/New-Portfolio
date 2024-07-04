@@ -1,0 +1,61 @@
+.Wrapper {
+  width: 43rem;
+  padding: 2rem;
+  border-radius: 12px;
+  /* border: 1px solid #e9eef8; */
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-black);
+  /* justify-content: center; */
+  gap: 2rem;
+  transition: transform 0.2s;
+  box-shadow: rgba(201, 201, 201, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  height: 50.7rem;
+}
+
+.Wrapper:hover {
+  transform: scale(1.1);
+}
+.Heading {
+  font-size: 3rem;
+}
+.Description {
+  color: var(--description-grey);
+  font-size: 1.5rem;
+  /* width: 39rem; */
+}
+.ProjectImage {
+  border-radius: 10px;
+  width: 500px;
+  height: 200px;
+  object-fit: cover;
+
+  -webkit-mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
+}
+
+.ChipWrapper {
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 1rem;
+}
+
+.Wrapper .Chip {
+  background-color: var(--white);
+  padding: 0.5rem;
+  height: 27px;
+  border-radius: 23px;
+}
+
+@media only screen and (max-width: 460px) {
+  .Wrapper {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Wrapper {
+    width: 35rem;
+  }
+}

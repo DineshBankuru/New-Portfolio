@@ -1,0 +1,20 @@
+.Wrapper {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 20rem;
+}
+.CardWrapper {
+  display: flex;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  flex-wrap: wrap;
+  column-gap: 3rem;
+  row-gap: 3rem;
+  justify-content: center;
+}
+.Heading {
+  font-size: 5rem;
+}
